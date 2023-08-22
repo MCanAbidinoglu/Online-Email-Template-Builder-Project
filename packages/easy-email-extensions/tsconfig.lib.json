@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@extensions": ["./src"],
+      "@extensions/*": ["./src/*"],
+      "easy-email-core": ["../easy-email-core"],
+      "easy-email-editor": ["../easy-email-editor"]
+    }
+  }
+}
